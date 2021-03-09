@@ -1,0 +1,7 @@
+.LoginContainer {
+  background: var(--blue);
+  display: flex;
+  height: 100vh;
+  width: 2300px;
+}
+

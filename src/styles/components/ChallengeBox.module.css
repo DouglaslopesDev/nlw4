@@ -109,3 +109,10 @@
 .challengeActive footer button:hover {
     filter: brightness(0.9);
 }
+
+@media (max-width: 620px) {
+    .challengeActive footer {
+        margin-top: 15px;
+        grid-template-columns: none;
+    }
+}

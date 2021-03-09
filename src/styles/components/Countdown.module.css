@@ -64,17 +64,28 @@
 }
 
 .countdownButtonActive {
-    background: var(--white);
-    color: var(--title);
-}
-
-.countdownButtonActive:not(:disabled):hover {
     background: var(--red);
     color: var(--white);
+}
+
+.countdownButtonActive:not(:disabled):hover{
+    background: var(--red-dark);
 }
 
 .countdownButton:disabled {
     background: var(--white);
     color: var(--text);
     cursor: not-allowed;
+    border: 3px solid var(--green);
+}
+
+.filterWhite {
+    margin-top: 2px;
+    margin-left: 7px;
+    width: 15px;
+}
+
+.img {
+    margin-left: 7px;
+    margin-top: 2px;
 }
